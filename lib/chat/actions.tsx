@@ -214,7 +214,7 @@ Besides that, you can also chat with users and do some calculations if needed.`
             </BotCard>
           )
 
-          await sleep(1000)
+          await sleep(20000)
 
           aiState.done({
             ...aiState.get(),
