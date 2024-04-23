@@ -9,6 +9,8 @@ export const metadata = {
   title: 'Next.js AI Chatbot'
 }
 
+export const maxDuration = 120
+
 export default async function IndexPage() {
   const id = nanoid()
   const session = (await auth()) as Session
